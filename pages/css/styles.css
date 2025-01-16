@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0; 
+    margin: 0 auto;
+    font-family: 'Lato';
+    color: #333;
+    align-items: center;
+    height: 100%; 
+}
+.cabezera{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Alinea la barra a la parte superior de la ventana */
+    left: 0; /* Alinea la barra a la izquierda */
+    width: 100%; /* La barra ocupará todo el ancho de la pantalla */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    border: solid black;
+} 
+.cabezera .logo{
+    cursor: pointer;
+}
+.cabezera .logo img{
+    height: 70px;
+    width: auto;
+    transform: all 0.3s;
+} 
+.cabezera .logo img:hover{
+    transform: scale(1.2);
+} 
+.cabezera .navegar {
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 12px;
+} 
+.cabezera .navegar li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-right: 1px;
+}
+.cabezera .navegar li:hover{
+    transform: scale(1.1);
+}
+.cabezera .navegar a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+.cabezera .navegar li a:hover{
+    color: #ffbc0e;
+}
+
+.cabezera .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background-color: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cabezera.btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+} 
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.Titulos {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.servicio {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.servicio i {
+    font-size: 3rem;
+    color: #17a2b8;
+}
+.pieCabeza{
+    background-color: #1b3039;;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 25px ; 
+    padding: 20px 0;
+    bottom: 0;
+    position: fixed;
+} 
+.contenedor_principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.contenedores {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+    .contenedores:hover {
+    transform: translateY(-10px);
+}
+    .feature-item {
+    flex-basis: 80%;
+    margin-bottom: 20px;
+} 
+  .contenedor_2 {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+.footer{
+    background-color: #1b3039;
+    padding: 80px 0;
+} 
+.footer_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+} 
+.enlaces{
+    width: 25%;
+    padding: 0 15px;
+} 
+.enlaces h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 10px;
+    display: inline-block;
+} 
+.enlaces ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+} 
+.enlaces ul li a:hover  {
+    color: #FFFFFF;
+    padding-left: 6px;
+}
+.iconos a:hover{
+    background-color: #00c3ff;
+}
+.header2{
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #f0f0f0; 
+}
+.logo2{
+    width: 125px;
+    height: 125px;
+} 
+.imagen22{
+    margin-left: 10px
+;
+    width: 125px;
+    height: 125px;
+    margin-right: 8px;
+}
+.imagen_principal{
+    width: 100%;
+}

@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Lato';
+  color: #333;
+  align-items: center;
+  height: 100%; 
+  justify-content: center; 
+  place-items: center; 
+  background-color: #f4f7f6;
+}  
+
+
+.cabezera{
+  background-color: #1b3039;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%; 
+  width: 100%;
+} 
+.cabezera .logo{
+  cursor: pointer;
+}
+.cabezera .logo img{
+  height: 70px;
+  width: auto;
+  transform: all 0.3s;
+} 
+.cabezera .logo img:hover{
+  transform: scale(1.2);
+} 
+.cabezera .navegar {
+  list-style: none;
+} 
+.cabezera .navegar li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.cabezera .navegar li:hover{
+  transform: scale(1.1);
+}
+.cabezera .navegar a{
+  font-size: 700;
+  color: #eceff1;
+  text-decoration: none;
+}
+.cabezera .navegar li a:hover{
+  color: #ffbc0e;
+}
+
+.cabezera .btn button{
+  font-weight: 700;
+  color: #1b3039;
+  padding: 9px 25px;
+  background-color: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.cabezera.btn button:hover{
+  background-color: #e2f1f8;
+  color: #ffbc0e;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.contenedor-formulario {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.campos {
+  margin-bottom: 15px;
+}
+
+.campos label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.campos input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.campos input:focus {
+  border-color: #4CAF50;
+}
+
+.registrar {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registrar:hover {
+  background-color: #45a049;
+}
+
+.registrar:active {
+  background-color: #388e3c;
+} 
+
+
+
+.pie_pagina{
+  background-color: #1b3039;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px; 
+  align-items: center;         
+  justify-content: center;     
+
+} 

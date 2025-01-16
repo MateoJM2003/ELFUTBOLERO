@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Lato';
+    color: #333;
+    align-items: center;
+    height: 100%; 
+} 
+
+.contenedor-camisas{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center; 
+    margin-left: 200px; 
+
+}
+
+.cabezera{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%; 
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Alinea la barra a la parte superior de la ventana */
+    left: 0; /* Alinea la barra a la izquierda */
+    width: 100%; /* La barra ocupará todo el ancho de la pantalla */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    border: solid black;
+} 
+.cabezera .logo{
+    cursor: pointer;
+}
+.cabezera .logo img{
+    height: 70px;
+    width: auto;
+    transform: all 0.3s;
+} 
+.cabezera .logo img:hover{
+    transform: scale(1.2);
+} 
+.cabezera .navegar {
+    list-style: none;
+} 
+.cabezera .navegar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.cabezera .navegar li:hover{
+    transform: scale(1.1);
+}
+.cabezera .navegar a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+.cabezera .navegar li a:hover{
+    color: #ffbc0e;
+}
+
+.cabezera .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background-color: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cabezera.btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+
+
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+
+
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.contenedor_principal_productos{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.contenedor-camisas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.camisas{
+    border-radius: 10px;
+}
+
+.camisas:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.camisas img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.camisas figure{
+    overflow: hidden;
+}
+
+.camisas:hover img{
+    transform: scale(1.2);
+}
+
+.productos{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.productos button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+} 
+
+
+.pie_pagina{
+    background-color: #1b3039;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px; 
+    align-items: center;         
+    justify-content: center;    
+    border: solid black; 
+
+  } 
