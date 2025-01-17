@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los botones del carrito */
+.carrito {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.carrito:hover {
+    background-color: #e07b00;
+}
+
+.carrito img {
+    max-width: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+}
+
+/* Tabla de productos en el carrito */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #ff8c00;
+    color: white;
+}
+
+
+
+.table tfoot {
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+#total {
+    color: #ff8c00;
+    font-size: 20px;
+}
+
+
+.cabezera {
+    background-color: #1b3039;
+      justify-content: space-between;
+      align-items: center;
+      height: 85px;
+      padding: 5px 10%;
+      text-align: center;
+      
+  }
+  

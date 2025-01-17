@@ -98,12 +98,15 @@ header{
 
 #contador-productos{
     font-size: 12px;
+    margin-left: 700px;
 }
 
 .contenedor_principal_productos{
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 0; 
+    margin-left: 300px;
+
 
     background-color: #fff;
     width: 400px;
@@ -197,3 +200,6 @@ header{
     border: solid black; 
 
   } 
+
+
+  

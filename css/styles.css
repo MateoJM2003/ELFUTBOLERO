@@ -22,8 +22,8 @@ body{
     position: fixed; /* Fija la barra en la parte superior */
     top: 0; /* Alinea la barra a la parte superior de la ventana */
     left: 0; /* Alinea la barra a la izquierda */
-    width: 100%; /* La barra ocupará todo el ancho de la pantalla */
-    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    width: 100%; 
+    z-index: 1000; 
     border: solid black;
 } 
 .cabezera .logo{

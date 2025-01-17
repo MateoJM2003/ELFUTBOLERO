@@ -1,0 +1,30 @@
+{
+    "productos":[
+        {
+            "id": "1",
+            "nombre": "pizzafvfv",
+            "precio":10,
+            "cantidad" :0
+        },
+        {
+            "id": "2",
+            "nombre": "Hamburgesa",
+            "precio":5,
+            "cantidad" :0
+        },
+
+        {
+            "id":"3",
+            "nombre":"papas",
+            "precio":2.50,
+            "cantidad":0
+        },
+
+        {
+            "id":"4",
+            "nombre":"hotdog",
+            "precio":1.50,
+            "cantidad":0
+}
+]
+}
